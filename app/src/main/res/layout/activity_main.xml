@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnExplicitIntent"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Explicit Intent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnToolbarMenu"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Toolbar Menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnExplicitIntent" />
+
+            <Button
+                android:id="@+id/btnAlertDialog"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Alert Dialog"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnToolbarMenu" />
+
+            <Button
+                android:id="@+id/btnSpinner"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnAlertDialog" />
+
+            <Button
+                android:id="@+id/btnRecycler"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Recycler View"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSpinner" />
+
+            <Button
+                android:id="@+id/btnFragment"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Fragment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnRecycler" />
+
+            <Button
+                android:id="@+id/btnNavigation"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Navigation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnFragment" />
+
+            <Button
+                android:id="@+id/btnSwipeAbleView"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Swipe Able View"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnNavigation" />
+
+            <Button
+                android:id="@+id/btnTabLayout"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Tab Layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSwipeAbleView" />
+
+            <Button
+                android:id="@+id/btnSlideAbleMenu"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Slide ABle Menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTabLayout" />
+
+            <Button
+                android:id="@+id/btnSharedPreferences"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Shared Preferences"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSlideAbleMenu" />
+
+            <Button
+                android:id="@+id/btnNotification"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Notification"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSharedPreferences" />
+
+            <Button
+                android:id="@+id/btnIntentService"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Intent Service"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnNotification" />
+
+            <Button
+                android:id="@+id/btnServices"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Services"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnIntentService" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</LinearLayout>
