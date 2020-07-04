@@ -170,6 +170,28 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIntentService" />
 
+            <Button
+                android:id="@+id/btnBroadcastReceiver"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Broadcast Receiver"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnServices" />
+
+            <Button
+                android:id="@+id/btnDragAndDrop"
+                android:layout_width="484dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Drag And Drop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnBroadcastReceiver" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>

@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ServicesActivity"></activity>
+        <activity android:name=".DragAndDropActivity"></activity>
+        <activity android:name=".BroadcastReceiverActivity" />
+        <activity android:name=".ServicesActivity" />
         <activity android:name=".IntentServiceActivity" />
         <activity android:name=".NotificationActivity" />
         <activity android:name=".SharedPreferencesActivity" />

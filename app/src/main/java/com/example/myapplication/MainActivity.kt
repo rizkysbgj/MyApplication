@@ -108,5 +108,17 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
+
+        btnBroadcastReceiver.setOnClickListener {
+            Intent(this, BroadcastReceiverActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnDragAndDrop.setOnClickListener {
+            Intent(this, DragAndDropActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 }
